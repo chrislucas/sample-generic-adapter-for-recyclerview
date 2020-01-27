@@ -1,5 +1,6 @@
 package com.xp.samplegenericadapterforrecyclerview.views;
 
+
 import android.content.Context;
 import android.os.Bundle;
 
@@ -14,27 +15,25 @@ import android.view.ViewGroup;
 
 import com.xp.samplegenericadapterforrecyclerview.R;
 import com.xp.samplegenericadapterforrecyclerview.sample.viewholder.adapter.GenericAdapterForRecyclerView;
-import com.xp.samplegenericadapterforrecyclerview.sample.viewholder.adapter.binder.BinderViewHolderNotMapped;
 import com.xp.samplegenericadapterforrecyclerview.sample.viewholder.adapter.binder.BinderViewHolderTextView;
 
 import java.util.Arrays;
 
+/**
+ * A simple {@link Fragment} subclass.
+ */
+public class SampleListViewNotMapped extends Fragment {
 
-public class SampleListTextViewFragment extends Fragment {
 
     private static final String ARG_COLUMN_COUNT = "column-count";
     private int mColumnCount = 1;
 
-    /**
-     * Mandatory empty constructor for the fragment manager to instantiate the
-     * fragment (e.g. upon screen orientation changes).
-     */
-    public SampleListTextViewFragment() {
+    public SampleListViewNotMapped() {
+        // Required empty public constructor
     }
 
-
-    public static SampleListTextViewFragment newInstance(int columnCount) {
-        SampleListTextViewFragment fragment = new SampleListTextViewFragment();
+    public static SampleListViewNotMapped newInstance(int columnCount) {
+        SampleListViewNotMapped fragment = new SampleListViewNotMapped();
         Bundle args = new Bundle();
         args.putInt(ARG_COLUMN_COUNT, columnCount);
         fragment.setArguments(args);
@@ -49,11 +48,12 @@ public class SampleListTextViewFragment extends Fragment {
         }
     }
 
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_samplelisttextview_list, container, false);
-
+        // Inflate the layout for this fragment
+        View view = inflater.inflate(R.layout.fragment_sample_list_view_not_mapped, container, false);
         // Set the adapter
         if (view instanceof RecyclerView) {
             Context context = view.getContext();
@@ -65,13 +65,15 @@ public class SampleListTextViewFragment extends Fragment {
             }
             recyclerView.setAdapter(new GenericAdapterForRecyclerView<>(
                     Arrays.asList(getResources().getStringArray(R.array.loren_ipsum_samples))
-                    , new BinderViewHolderNotMapped())
+                    , new BinderViewHolderTextView())
             );
         }
+
         return view;
     }
 
     public static String getTag0() {
-        return SampleListTextViewFragment.class.getSimpleName();
+        return SampleListViewNotMapped.class.getSimpleName();
     }
+
 }

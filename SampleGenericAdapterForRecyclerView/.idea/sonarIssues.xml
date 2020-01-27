@@ -73,7 +73,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/xp/samplegenericadapterforrecyclerview/sample/viewholder/adapter/SimpleViewHolderWithConstraintLayout.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/xp/samplegenericadapterforrecyclerview/sample/viewholder/adapter/binder/Binder.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/xp/samplegenericadapterforrecyclerview/sample/viewholder/adapter/binder/BinderViewHolderNotMapped.kt">
           <value>
             <set />
           </value>
@@ -118,7 +128,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/xp/samplegenericadapterforrecyclerview/views/SampleListViewNotMapped.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/fragment_sample_list_view_not_mapped.xml">
           <value>
             <set />
           </value>
@@ -139,6 +159,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/item_card_view.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/item_constraint_layout_not_mapped.xml">
           <value>
             <set />
           </value>

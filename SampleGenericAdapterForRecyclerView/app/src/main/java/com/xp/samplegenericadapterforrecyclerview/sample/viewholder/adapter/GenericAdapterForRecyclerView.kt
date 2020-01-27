@@ -18,7 +18,6 @@ open class GenericAdapterForRecyclerView<T>(private val data: List<T>, private v
         binder.onClick(holder, data[position])
     }
 
-
     override fun getItemViewType(position: Int): Int = binder.getItemViewType(data[position])
 
 }
