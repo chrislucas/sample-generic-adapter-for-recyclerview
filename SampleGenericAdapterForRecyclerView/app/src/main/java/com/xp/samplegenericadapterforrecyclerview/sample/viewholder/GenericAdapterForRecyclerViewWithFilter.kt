@@ -7,17 +7,10 @@ import com.xp.samplegenericadapterforrecyclerview.sample.viewholder.adapter.bind
 
 class GenericAdapterForRecyclerViewWithFilter<T>(
     private val data: List<T>,
-    private val binder: Binder<T>
+    private val binder: Binder<T>,
+    private val filter: Filter
 ) : GenericAdapterForRecyclerView<T>(data, binder), Filterable {
 
-    override fun getFilter(): Filter {
-        return object : Filter() {
-            override fun performFiltering(constraint: CharSequence?): FilterResults {
-                return FilterResults()
-            }
-
-            override fun publishResults(constraint: CharSequence?, results: FilterResults?) {}
-        }
-    }
+    override fun getFilter(): Filter = filter
 }
 
