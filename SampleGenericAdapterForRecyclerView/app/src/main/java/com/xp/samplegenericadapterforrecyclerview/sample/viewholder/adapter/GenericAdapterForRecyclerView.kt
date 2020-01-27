@@ -5,7 +5,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.xp.samplegenericadapterforrecyclerview.sample.viewholder.adapter.binder.Binder
 
 
-class GenericAdapterForRecyclerView<T>(private val data: List<T>, private val binder: Binder<T>) :
+open class GenericAdapterForRecyclerView<T>(private val data: List<T>, private val binder: Binder<T>) :
     RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         return binder.getViewHolder(viewType, parent)

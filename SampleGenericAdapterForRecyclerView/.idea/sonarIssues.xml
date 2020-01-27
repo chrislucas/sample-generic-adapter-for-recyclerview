@@ -43,6 +43,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/xp/samplegenericadapterforrecyclerview/sample/viewholder/GenericAdapterForRecyclerViewWithFilter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/xp/samplegenericadapterforrecyclerview/sample/viewholder/SimpleViewHolderWithCardView.kt">
           <value>
             <set />
