@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SampleGenericAdapterForRecyclerView</string>
+    <string-array name="loren_ipsum_samples">
+        <item>
+            "Lorem ipsum dolor sit amet, augue pellentesque sagittis, aliquam maecenas, felis aliquam quam metus velit ultricies hendrerit. Amet pellentesque justo aliquet placerat habitant, molestiae nascetur pellentesque neque, turpis amet sollicitudin nonummy ridiculus maecenas habitant, sit cras in sit turpis, vel per et. Phasellus porttitor integer, et ultrices eros. Consectetuer risus, sequi tortor nulla nibh, vel adipiscing, gravida nunc ad erat adipiscing dui id. In laoreet donec vitae ut natoque cupiditate, tincidunt suspendisse pellentesque, consectetuer vivamus maxime quis vero est, in condimentum dis ultrices eros sed."
+        </item>
+        <item>
+            "Rutrum dolor augue felis mollis commodo, cras at auctor ac blandit phasellus ac, volutpat wisi mauris sint, leo commodo. Mauris porta nonummy vestibulum. Molestiae nec vestibulum lectus, id netus ullamcorper neque commodo curae, sit sed libero mattis ut tortor eu. In eu risus facilisi suspendisse non sit. Venenatis at urna metus pellentesque neque, libero id massa bibendum aliquet nullam rutrum, nullam quis blandit morbi dui. Consequatur sit nulla, hendrerit laoreet sed leo posuere, justo vitae vehicula quisque, non vel nibh quam sed porttitor urna. Suspendisse rutrum in ut, ad magna tortor dui erat, varius dignissim consectetuer id ac sollicitudin lacus, a dolor etiam. Lacus orci, pede in leo pharetra, sed ut etiam, elit eget ut lacinia pede in."
+        </item>
+        <item>
+             "Amet faucibus lobortis. Vel ligula auctor, morbi purus dui suscipit fusce eu duis. Iaculis rhoncus urna suspendisse nulla proin nec, wisi odio laoreet a arcu ipsum sociis, sed faucibus mi faucibus commodo, massa mattis nisl volutpat, vel senectus mauris. Vulputate mi viverra elementum facilisis duis, diam interdum. Wisi amet sit ac metus, ultricies dui tempor litora, pede leo nec consequat pretium tempus nulla, tristique diam elit enim amet sapien malesuada. Luctus nibh elit volutpat, sapien egestas pede, pede euismod, tortor vivamus ullamcorper neque urna faucibus, elementum magnis mollis. Rutrum in ligula et et lacus, wisi arcu. Nec eget a scelerisque lobortis, urna tempus suscipit purus varius. Arcu mi, phasellus purus nulla mauris quis, blandit amet amet nostrud, molestie nunc dui aliquam."
+        </item>
+        <item>
+            "Luctus at dictum volutpat faucibus rutrum. Vestibulum fringilla in curabitur pellentesque enim, nulla amet mi arcu nullam dolor, diam quam labore, eu blandit reprehenderit quam erat vitae arcu. Etiam sit dolores dolor wisi mauris, ut sem aute nostra, ut hac id quam. Amet varius urna non nascetur nam, cillum neque vehicula porttitor ac sit consectetuer, convallis lobortis lacinia magna vestibulum leo. Ac sagittis, in quam, in sit commodo maecenas vehicula, donec vitae. Aliquam praesent donec elit ut vivamus, a tristique est, dolor ullamcorper sit metus, volutpat quisque phasellus est elit elit nonummy, sed vehicula feugiat ligula integer sollicitudin pellentesque. A in, pharetra praesent, erat ipsum nam sit wisi, congue sapien est. Nam vestibulum. Odio habitasse, venenatis vel, cras eget at vel eget ante sit."
+        </item>
+    </string-array>
+</resources>
