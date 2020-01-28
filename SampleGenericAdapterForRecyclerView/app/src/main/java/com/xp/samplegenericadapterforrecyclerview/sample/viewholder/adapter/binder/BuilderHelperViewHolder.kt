@@ -27,7 +27,7 @@ class BuilderHelperViewHolder {
         fun builder(
             @ViewType viewType: Int
             , viewRoot: ViewGroup
-            , polymorphicViewHolder: (viewType: Int, viewRoot: ViewGroup) -> RecyclerView.ViewHolder? = { _, _ -> null }
+            , polymorphicViewHolder: ((viewType: Int, viewRoot: ViewGroup) -> RecyclerView.ViewHolder)? = null
         ): RecyclerView.ViewHolder {
             return when (viewType) {
                 VIEW_HOLDER_SIMPLE_CARD_VIEW -> {
@@ -45,7 +45,11 @@ class BuilderHelperViewHolder {
                     )
                 }
                 else -> {
-                    polymorphicViewHolder(viewType, viewRoot)!!
+                    if (polymorphicViewHolder != null) {
+                        polymorphicViewHolder(viewType, viewRoot)
+                    } else {
+                        throw Exception("A funcao lambda precisa ser definida !")
+                    }
                 }
             }
         }

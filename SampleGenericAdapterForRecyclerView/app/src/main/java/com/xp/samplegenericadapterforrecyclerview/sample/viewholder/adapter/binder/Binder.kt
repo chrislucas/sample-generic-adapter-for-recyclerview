@@ -5,9 +5,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 interface Binder<T> {
 
-    //fun onClick(viewHolder: RecyclerView.ViewHolder, data: List<T>)
-
-    fun onClick(viewHolder: RecyclerView.ViewHolder, data: T)
+    fun onClick(viewHolder: RecyclerView.ViewHolder, data: List<T>)
 
     fun getItemViewType(data : T) : Int
 

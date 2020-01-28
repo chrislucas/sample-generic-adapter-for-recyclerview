@@ -15,6 +15,7 @@ import android.view.ViewGroup;
 
 import com.xp.samplegenericadapterforrecyclerview.R;
 import com.xp.samplegenericadapterforrecyclerview.sample.viewholder.adapter.GenericAdapterForRecyclerView;
+import com.xp.samplegenericadapterforrecyclerview.sample.viewholder.adapter.binder.BinderViewHolderNotMapped;
 import com.xp.samplegenericadapterforrecyclerview.sample.viewholder.adapter.binder.BinderViewHolderTextView;
 
 import java.util.Arrays;
@@ -65,7 +66,7 @@ public class SampleListViewNotMapped extends Fragment {
             }
             recyclerView.setAdapter(new GenericAdapterForRecyclerView<>(
                     Arrays.asList(getResources().getStringArray(R.array.loren_ipsum_samples))
-                    , new BinderViewHolderTextView())
+                    , new BinderViewHolderNotMapped())
             );
         }
 

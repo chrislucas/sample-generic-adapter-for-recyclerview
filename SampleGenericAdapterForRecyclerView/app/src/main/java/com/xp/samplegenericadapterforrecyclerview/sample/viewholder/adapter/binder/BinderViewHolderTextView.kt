@@ -8,10 +8,10 @@ import com.xp.samplegenericadapterforrecyclerview.sample.viewholder.SimpleViewHo
 class BinderViewHolderTextView :
     Binder<String> {
 
-    override fun onClick(viewHolder: RecyclerView.ViewHolder, data: String) {
+    override fun onClick(viewHolder: RecyclerView.ViewHolder, data: List<String>) {
         val viewRoot = viewHolder as SimpleViewHolderWithTextView
-        viewRoot.itemRoot. setOnClickListener {
-            Log.i("TAG_${javaClass.simpleName}", data)
+        viewRoot.itemRoot.setOnClickListener {
+            Log.i("TAG_${javaClass.simpleName}", data[viewHolder.adapterPosition])
         }
     }
 

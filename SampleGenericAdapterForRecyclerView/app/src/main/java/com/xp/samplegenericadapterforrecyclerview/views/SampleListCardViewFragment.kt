@@ -53,11 +53,11 @@ class SampleListCardViewFragment : Fragment() {
     private fun generateBinderForCardView(): Binder<String> {
         return object :
             Binder<String> {
-            override fun onClick(viewHolder: RecyclerView.ViewHolder, data: String) {
+            override fun onClick(viewHolder: RecyclerView.ViewHolder, data: List<String>) {
                 when (viewHolder) {
                     is SimpleViewHolderWithCardView -> {
                         viewHolder.viewRoot.setOnClickListener {
-                            Log.i("TAG_${javaClass.simpleName}", data)
+                            Log.i("TAG_${javaClass.simpleName}", data[viewHolder.adapterPosition])
                         }
                     }
                 }

@@ -13,10 +13,8 @@ class MainActivity : AppCompatActivity() {
         supportFragmentManager.beginTransaction()
             .replace(
                 R.id.frame_layout
-                //, SampleListCardViewFragment.newInstance(1)
-                //, SampleListCardViewFragment.getTag()
-                , SampleListTextViewFragment.newInstance(1)
-                , SampleListTextViewFragment.getTag0()
+                , SampleListViewNotMapped.newInstance(1)
+                , SampleListViewNotMapped.getTag0()
             ).commit()
 
     }

@@ -15,7 +15,6 @@ import android.view.ViewGroup;
 import com.xp.samplegenericadapterforrecyclerview.R;
 import com.xp.samplegenericadapterforrecyclerview.sample.viewholder.adapter.GenericAdapterForRecyclerView;
 import com.xp.samplegenericadapterforrecyclerview.sample.viewholder.adapter.binder.BinderViewHolderNotMapped;
-import com.xp.samplegenericadapterforrecyclerview.sample.viewholder.adapter.binder.BinderViewHolderTextView;
 
 import java.util.Arrays;
 
