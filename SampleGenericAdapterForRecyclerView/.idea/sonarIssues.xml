@@ -3,7 +3,17 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/androidTest/java/com/xp/samplegenericadapterforrecyclerview/SampleListCardViewFragmentTest.kt">
           <value>
             <set />
           </value>
@@ -73,6 +83,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/xp/samplegenericadapterforrecyclerview/sample/viewholder/adapter/GenericAdapterForRecyclerViewWithFilter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/xp/samplegenericadapterforrecyclerview/sample/viewholder/adapter/SimpleViewHolderWithConstraintLayout.kt">
           <value>
             <set />
@@ -99,6 +114,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/xp/samplegenericadapterforrecyclerview/sample/viewholder/adapter/binder/BuilderViewHolder.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/xp/samplegenericadapterforrecyclerview/sample/viewholder/adapter/filter/AbstractFilter.kt">
           <value>
             <set />
           </value>
@@ -133,7 +153,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/xp/samplegenericadapterforrecyclerview/views/SearchFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/default_toolbar.xml">
           <value>
             <set />
           </value>
@@ -158,6 +188,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/fragment_search.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/item_card_view.xml">
           <value>
             <set />
@@ -169,6 +204,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/item_text_view.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/menu/menu_search.xml">
           <value>
             <set />
           </value>

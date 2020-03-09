@@ -17,3 +17,15 @@ wapp/src/main/java/com/xp/samplegenericadapterforrecyclerview/sample/viewholder/
 `app/src/main/java/com/xp/samplegenericadapterforrecyclerview/views/SampleListCardViewFragment.kt,1\e\1ee207a4b807bbc903ee1f33870bf0544b8e597d
 ®
 xapp/src/main/java/com/xp/samplegenericadapterforrecyclerview/sample/viewholder/adapter/binder/BuilderHelperViewHolder.kt,6\d\6d7abe7edd7025cd22110ceefb3190168eb63f3f
+è
+_app/src/main/java/com/xp/samplegenericadapterforrecyclerview/views/SampleListViewNotMapped.java,5\3\5371d4ba7c95c0bf966c680f4cb96ffa77fc64ed
+¶
+vapp/src/main/java/com/xp/samplegenericadapterforrecyclerview/sample/viewholder/SimpleViewHolderWithConstraintLayout.kt,d\e\de0a67afd6b6735845a90524091654ba05161d6b
+™
+zapp/src/main/java/com/xp/samplegenericadapterforrecyclerview/sample/viewholder/adapter/binder/BinderViewHolderNotMapped.kt,4\8\48200fdc32cc15bf23c732b3ef97049be9a0d034
+≤
+Åapp/src/main/java/com/xp/samplegenericadapterforrecyclerview/sample/viewholder/adapter/GenericAdapterForRecyclerViewWithFilter.kt,2\0\2099af63f11a49904f0faaf42138ed832847612c
+Ñ
+Tapp/src/main/java/com/xp/samplegenericadapterforrecyclerview/views/SearchFragment.kt,5\5\558591e82bfb2d00d1b4dede668338420dccd12a
+ü
+oapp/src/main/java/com/xp/samplegenericadapterforrecyclerview/sample/viewholder/adapter/filter/AbstractFilter.kt,7\1\71e6e9bd17bde8710e69898d9a92c5c6a3735628

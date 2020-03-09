@@ -2,6 +2,8 @@ package com.xp.samplegenericadapterforrecyclerview.views
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import androidx.appcompat.widget.SearchView
 import com.xp.samplegenericadapterforrecyclerview.R
 
 class MainActivity : AppCompatActivity() {
@@ -13,9 +15,10 @@ class MainActivity : AppCompatActivity() {
         supportFragmentManager.beginTransaction()
             .replace(
                 R.id.frame_layout
-                , SampleListViewNotMapped.newInstance(1)
-                , SampleListViewNotMapped.getTag0()
+                , SampleListCardViewFragment.newInstance(1)
+                , SampleListCardViewFragment.getTag0()
             ).commit()
+
 
     }
 }

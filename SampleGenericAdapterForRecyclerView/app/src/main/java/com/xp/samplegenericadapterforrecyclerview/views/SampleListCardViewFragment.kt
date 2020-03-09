@@ -9,16 +9,19 @@ import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.widget.SearchView
 import com.xp.samplegenericadapterforrecyclerview.sample.viewholder.adapter.binder.Binder
 import com.xp.samplegenericadapterforrecyclerview.sample.viewholder.adapter.binder.BuilderHelperViewHolder
 import com.xp.samplegenericadapterforrecyclerview.R
 
 import com.xp.samplegenericadapterforrecyclerview.sample.viewholder.SimpleViewHolderWithCardView
 import com.xp.samplegenericadapterforrecyclerview.sample.viewholder.adapter.GenericAdapterForRecyclerView
+import com.xp.samplegenericadapterforrecyclerview.sample.viewholder.adapter.GenericAdapterForRecyclerViewWithFilter
 
-class SampleListCardViewFragment : Fragment() {
+class SampleListCardViewFragment : Fragment(), SearchView.OnQueryTextListener  {
 
     private var columnCount = 1
+    private lateinit var filterAdapter : GenericAdapterForRecyclerViewWithFilter<String>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,6 +36,14 @@ class SampleListCardViewFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_samplelistcardview_list, container, false)
 
+        activity?.let {
+            it.supportFragmentManager.beginTransaction()
+                .replace(
+                    R.id.layout_toolbar
+                    , SearchFragment.newInstance()
+                    , SearchFragment.getTag()
+                ).commit()
+        }
         // Set the adapter
         if (view is RecyclerView) {
             with(view) {
@@ -79,6 +90,21 @@ class SampleListCardViewFragment : Fragment() {
         }
     }
 
+    override fun onQueryTextSubmit(query: String?): Boolean {
+        query?.let {
+            filterAdapter.search(it)
+        }
+
+        return true
+    }
+
+    override fun onQueryTextChange(newText: String?): Boolean {
+        newText?.let {
+            filterAdapter.search(it)
+        }
+        return true
+    }
+
 
     companion object {
 
@@ -92,6 +118,6 @@ class SampleListCardViewFragment : Fragment() {
                 }
             }
 
-        fun getTag(): String = SampleListCardViewFragment::class.java.simpleName
+        fun getTag0(): String = SampleListCardViewFragment::class.java.simpleName
     }
 }
